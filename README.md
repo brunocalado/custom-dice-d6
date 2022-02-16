@@ -1,6 +1,9 @@
 # Custom Dice - d6
 This module add a new dice look for **Dice So Nice**.
 
+# Brazilian Instructions
+[![Scum and Villainy no Foundry VTT](https://img.youtube.com/vi/FCbRKrjYTOM/0.jpg)](https://www.youtube.com/watch?v=FCbRKrjYTOM)
+
 # Options
 - Avatar
 - Masks: a New Generation

@@ -2,7 +2,7 @@
 	"name": "custom-dice-d6",
 	"title": "Custom Dice Template",
 	"description": "",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"minimumCoreVersion" : "9",
 	"compatibleCoreVersion" : "9",
 	"author": "MD",
