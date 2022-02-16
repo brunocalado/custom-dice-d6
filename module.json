@@ -1,0 +1,26 @@
+{
+	"name": "custom-dice-d6",
+	"title": "Custom Dice Template",
+	"description": "",
+	"version": "0.0.4",
+	"minimumCoreVersion" : "9",
+	"compatibleCoreVersion" : "9",
+	"author": "MD",
+	"esmodules": [
+		"./scripts/main.js"
+	],
+	"styles": [
+		"./css/style.css"
+	],
+	"url": "https://github.com/brunocalado/custom-dice-d6",
+	"manifest": "https://raw.githubusercontent.com/brunocalado/custom-dice-d6/main/module.json",
+	"download": "https://codeload.github.com/brunocalado/custom-dice-d6/zip/main",
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
+    } 
+  ]
+}
+
