@@ -2,7 +2,7 @@
 	"name": "custom-dice-d6",
 	"title": "Custom Dice Template",
 	"description": "",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"minimumCoreVersion" : "9",
 	"compatibleCoreVersion" : "9",
 	"author": "MD",
@@ -13,8 +13,8 @@
 		"./css/style.css"
 	],
 	"url": "https://github.com/brunocalado/custom-dice-d6",
-	"manifest": "https://raw.githubusercontent.com/brunocalado/custom-dice-d6/main/module.json",
-	"download": "https://codeload.github.com/brunocalado/custom-dice-d6/zip/main",
+	"manifest": "",
+	"download": "",
   "dependencies": [
     {
       "type": "module",
