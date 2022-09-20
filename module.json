@@ -1,11 +1,24 @@
 {
-	"name": "custom-dice-d6",
+	"id": "custom-dice-d6",
 	"title": "Custom Dice Template",
 	"description": "",
-	"version": "0.0.6",
-	"minimumCoreVersion" : "9",
-	"compatibleCoreVersion" : "9",
-	"author": "MD",
+  
+	"version": "0.1.0",
+  
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  
 	"esmodules": [
 		"./scripts/main.js"
 	],
@@ -15,12 +28,15 @@
 	"url": "https://github.com/brunocalado/custom-dice-d6",
 	"manifest": "",
 	"download": "",
-  "dependencies": [
-    {
-      "type": "module",
-      "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
-    } 
-  ]
+
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
+      }
+    ]
+  }
 }
 
